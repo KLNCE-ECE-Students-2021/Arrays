@@ -24,7 +24,7 @@ void factors(int num)
     if (count==len) {
         //  printf("\n \n%d",cnt);
         for (int i = 0; i < cnt; i++) {
-            for (int k = i + 1; k < cnt-i-1;) {
+            for (int k = i + 1; k < cnt-i-1;) {https://github.com/KLNCE-ECE-Students-2021/Arrays/blob/main/Sort_Odd_Even
                 if (arr[k] == arr[i]) {
                     for (int l = k; l < cnt; l++) {
                         arr[l] = arr[l + 1];
